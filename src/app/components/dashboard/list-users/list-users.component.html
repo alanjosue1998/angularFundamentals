@@ -1,0 +1,10 @@
+<app-spinner *ngIf="charging"></app-spinner>
+<div class="row gx-5 gy-2 mt-2 mb-2">
+    <div *ngFor="let user of listUsers" class="col-md-3">
+        <app-card [user]="user"></app-card>
+    </div>
+</div>
+<div>
+    <span class="btn btn-primary">Previous</span>
+    <span class="btn btn-primary">Next</span>
+</div>

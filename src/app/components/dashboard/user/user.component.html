@@ -1,0 +1,9 @@
+<app-spinner *ngIf="charging"></app-spinner>
+<div *ngIf="!charging">
+	<h1><span class="title">Name </span> {{ this.name}}</h1>
+	<h2><span class="title">Email </span> {{ this.email}}</h2>
+	<h2><span class="title">Gender </span> {{this.gender}}</h2>
+	<h2><span class="title">Status </span> <span [ngStyle]="{ 'color': this.status == 'active' ? 'green':'red'}">{{this.status}}</span></h2>
+</div>
+<button class="btn btn-lg btn-primary mb-4" routerLink="/dashboard"> Back </button>
+

@@ -25,3 +25,40 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Install Bootstrapp 
+
+Init proyect 
+
+ng serve --o
+
+Init new proyect node_modulles removed
+
+npm install
+
+you can use bootstrap with this links 
+
+  `<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">`
+  `<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>`
+
+or you can use bootstrap with npm commant
+
+npm install bootstrap
+npm install jquery
+
+for that is works is necesary add on angular.json  on styles
+
+"./node_modules/bootstrap/dist/css/bootstrap.css"
+
+on scripts
+
+"./node_modules/jquery/dist/jquery.js",
+"./node_modules/bootstrap/dist/js/bootstrap.js"
+
+Command for add a compont with angular 
+
+`ng generate component components/navbar`
+
+`ng g c components/footer`
+
+`ng build`
